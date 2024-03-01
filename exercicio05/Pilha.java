@@ -1,3 +1,4 @@
+package exercicio05;
 import javax.swing.JOptionPane;
 
 public class Pilha {
@@ -57,6 +58,20 @@ public class Pilha {
         else{
             for(int i=topo; i>=0; i--){
                 res += "Elemento " + vetor[i] + " - posição " + i + "\n";
+            }
+        }
+
+        return res;
+    }
+
+    public String exibeURLs(){
+        String res = "";
+        if(vazia() == true){
+            res = "Pilha Vazia!";
+        }
+        else{
+            for(int i=topo; i>=0; i--){
+                res += "URL: " + vetor[i] + " - posição " + i + "\n";
             }
         }
 

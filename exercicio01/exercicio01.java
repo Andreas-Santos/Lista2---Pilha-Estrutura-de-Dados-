@@ -1,3 +1,10 @@
+// 1) Escreva um programa em JAVA que leia números inteiros e armazene em
+// uma pilha. A entrada de dados deve ser interrompida quando o usuário
+// informar o número zero e/ou esgotar a quantidade definida de elementos a
+// serem armazenados na estrutura. Por último, imprima os elementos na
+// ordem em que foram removidos da pilha.
+
+package exercicio01;
 import javax.swing.JOptionPane;
 
 public class exercicio01 {
